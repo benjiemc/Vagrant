@@ -2,6 +2,8 @@
 
 Settings for setting up vagrant VMs for development in a linux environment.
 
+To begin, install the latest versions of [VirtualBox][1] and [Vagrant][2]
+
 ## Basic Box Setup
 
 To begin, clone this git repository using ssh or https.
@@ -33,7 +35,7 @@ vagrant ssh
 By default, this has setup the `python` box used for python development.
 
 
-## `python box` Setup
+## `python` box Setup
 
 Follow the same first two steps- cloning the git repository and changing into the vagrant directory.
 
@@ -47,3 +49,6 @@ vagrant up python
 ```
 And voilà, you should be in the `ubuntu 20.04` box ready for python 3
 development. 
+
+[1]: https://www.virtualbox.org/wiki/Downloads
+[2]: https://www.vagrantup.com/downloads.html
