@@ -24,7 +24,7 @@ Vagrant.configure("2") do |config|
   # Provisioning a "python" box --> note this is the primary box
   config.vm.define "python", primary: true do |python|
      # Load startup text
-     icon= File.open(".python-load-icon")
+     icon = File.open("icons/python-load-icon")
      config.vm.post_up_message = icon.read
      icon.close
 
