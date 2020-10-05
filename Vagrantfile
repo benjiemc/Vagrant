@@ -23,6 +23,11 @@ Vagrant.configure("2") do |config|
 
   # Provisioning a "python" box --> note this is the primary box
   config.vm.define "python", primary: true do |python|
+     # Load startup text
+     icon= File.open(".python-load-icon")
+     config.vm.post_up_message = icon.read
+     icon.close
+
      # Port Forwarding
      python.vm.network "forwarded_port", guest: 80, host: 8080, host_ip: "127.0.0.1"
      python.vm.provision "shell", inline: <<-SHELL
