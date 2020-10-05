@@ -36,6 +36,33 @@ By default, this has setup the `python` box used for python development.
 
 
 ## `python` box Setup
+```
+   _ \          |    |                   
+  |   |  |   |  __|  __ \    _ \   __ \  
+  ___/   |   |  |    | | |  (   |  |   |
+ _|     \__, | \__| _| |_| \___/  _|  _|
+        ____/   
+
+
+           /^\/^\
+         _|__|  O|
+\/     /~     \_/ \
+ \____|__________/  \
+        \_______      \
+                `\     \                 \
+                  |     |                  \
+                 /      /                    \
+                /     /                       \\
+              /      /                         \ \
+             /     /                            \  \
+           /     /             _----_            \   \
+          /     /           _-~      ~-_         |   |
+         (      (        _-~    _--_    ~-_     _/   |
+          \      ~-____-~    _-~    ~-_    ~-_-~    /
+            ~-_           _-~          ~-_       _-~
+               ~--______-~                ~-___-~
+
+```
 
 Follow the same first two steps- cloning the git repository and changing into the vagrant directory.
 
